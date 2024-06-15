@@ -1,0 +1,14 @@
+keras==2.0.5
+scipy>=1.1.0,<=1.2.1
+scikit-image>=0.15.0
+h5py>=2.7.1
+pip install imageio
+pip install PyWavelets==1.0.1
+pip install scikit-image==0.15.0
+python -m pip install keras==2.0.5
+or
+pip install -U dm-sonnet==1.23
+pip install --upgrade tfp-nightly
+pip install tensorflow==1.15.2
+
+python inetwork.py "./images/inputs/content/groupofpeople.jpg" "./images/inputs/style/the_scream.jpg" "./images/output/result9"
